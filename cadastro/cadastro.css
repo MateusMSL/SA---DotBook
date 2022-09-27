@@ -1,0 +1,830 @@
+/* CSS RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* CSS RESET */
+
+@font-face {
+    font-family: Pocket Money;
+    src: url(Fonts/Pocket\ Money.ttf);
+  }
+
+  @font-face {
+    font-family: Mogen-Bold;
+    src: url(Fonts/Mogen-Bold.otf);
+  }
+
+
+#container_01{
+
+	float: left;
+	height: 2050px;
+	background-color: #353535;
+}
+
+
+#container_02{
+
+	float: left;
+	height: 218px;
+	
+	background-color: #353535;
+}
+
+
+#container_03{
+
+	float: left;
+	height: 270px;
+	
+	background-color: #353535;
+}
+
+#divide_div_01{ 
+	float: left;
+	
+	height: 220px;
+}
+
+#register_topleft_image{
+
+	height: 400px;
+	background-size: 90%;
+	background-image: url(media/GIF/Creative\ writing.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#divide_div_02{ 
+	float: left;
+	
+	margin-left: 50px;
+	height: 220px;
+}
+
+#divide_div_03{ float: left;
+	
+	height: 220px;
+}
+
+#register_topright_image{
+
+	height: 400px;
+	margin-top: 400px;
+	background-size: 90%;
+	background-image: url(media/GIF/Design\ community.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+#divide_div_04{ 
+	float: left;
+	
+	height: 218px;
+}
+#divide_div_05{ 
+	float: left;
+	
+	height: 218px;
+}
+
+#divide_div_06{ float: left;
+	
+	height: 218px;
+}
+
+#divide_div_07{ 
+	float: left;
+	
+	height: 270px;
+}
+
+#divide_div_08{ 
+	float: left;
+	
+	height: 270px;
+}
+#divide_div_09{ 
+	float: left;
+	
+	height: 270px;
+}
+
+
+
+#form_spacing{
+
+	float: left;
+	height: 500px;
+	margin-top: 40px;
+}
+
+#campo_nome_completo{
+
+	margin-left: 60px;
+	margin-top: 30px;
+}
+
+#campo_usuario{
+	
+	margin-left: 60px;
+	margin-top: 30px;
+}
+
+#campo_email{
+
+	margin-left: 60px;
+	margin-top: 30px;
+
+}
+
+#campo_senha{
+
+	margin-left: 60px;
+	margin-top: 30px;
+
+}
+
+#campo_senha_confirmar{
+	
+	margin-left: 60px;
+	margin-top: 30px;
+
+}
+
+#campo_nascimento{
+
+	margin-left: 60px;
+	margin-top: 30px;
+
+}
+
+#campo_botao_cadastrar{
+
+	margin-left: 205px;
+	margin-top: 30px;
+
+}
+
+#cad_nome{
+
+	border-radius: 5px;
+    border: 2PX SOLID rgb(255, 101, 101);    
+	text-align: left;
+	background-color: rgb(0, 0, 0, 0);
+    font-size: 20px;
+    color:  rgb(255, 235, 213);
+    font-family: Pocket Money;
+}
+
+#cad_usuario{
+
+	border-radius: 5px;
+    border: 2PX SOLID rgb(255, 101, 101);     
+	text-align: left;
+	background-color: rgb(0, 0, 0, 0);
+    font-size: 20px;
+    color:  rgb(255, 235, 213);
+    font-family: Pocket Money;
+}
+
+#cad_mail{
+
+	border-radius: 5px;
+    border: 2PX SOLID rgb(255, 101, 101);     
+	text-align: left;
+	background-color: rgb(0, 0, 0, 0);
+    font-size: 20px;
+    color:  rgb(255, 235, 213);
+    font-family: Pocket Money;
+}
+
+#cad_senha1{
+
+	border-radius: 5px;
+    border: 2PX SOLID rgb(255, 101, 101);     
+	text-align: left;
+	background-color: rgb(0, 0, 0, 0);
+    font-size: 20px;
+    color:  rgb(255, 235, 213);
+    font-family: Pocket Money;
+}
+
+#cad_senha2{
+
+	border-radius: 5px;
+    border: 2PX SOLID rgb(255, 101, 101);     
+	text-align: left;
+	background-color: rgb(0, 0, 0, 0);
+    font-size: 20px;
+    color:  rgb(255, 235, 213);
+    font-family: Pocket Money;
+}
+
+#cad_data{
+
+	border-radius: 5px;
+    border: 2PX SOLID rgb(255, 101, 101);     
+	text-align: left;
+	background-color: rgb(0, 0, 0, 0);
+    font-size: 20px;
+    color:  rgb(255, 235, 213);
+    font-family: Pocket Money;
+}
+
+#fullname_text{
+	
+	text-align: left;
+    height: 40px;
+    margin-top: 20px;
+	margin-left: 60px;
+    font-size: 30px;
+    color:  rgb(255, 235, 213);
+    font-family: Pocket Money;
+
+}
+
+#nickname_text{
+	
+	text-align: left;
+    height: 40px;
+	margin-top: 15px;
+	margin-left: 60px;
+    font-size: 30px;
+    color:  rgb(255, 235, 213);
+    font-family: Pocket Money;
+
+}
+
+#email_text{
+	
+	text-align: left;
+    height: 40px;
+    margin-top: 15px;
+	margin-left: 60px;
+    font-size: 30px;
+    color:  rgb(255, 235, 213);
+    font-family: Pocket Money;
+
+}
+
+#password1_text{
+	
+	text-align: left;
+    height: 40px;
+    margin-top: 15px;
+	margin-left: 60px;
+    font-size: 30px;
+    color:  rgb(255, 235, 213);
+    font-family: Pocket Money;
+
+}
+
+#password2_text{
+	
+	text-align: left;
+    height: 40px;
+    margin-top: 15px;
+	margin-left: 60px;
+    font-size: 30px;
+    color:  rgb(255, 235, 213);
+    font-family: Pocket Money;
+
+}
+
+#Birthday_text{
+	
+	text-align: left;
+    height: 40px;
+    margin-top: 15px;
+	margin-left: 60px;
+    font-size: 30px;
+    color:  rgb(255, 235, 213);
+    font-family: Pocket Money;
+
+}
+
+#return_login{
+
+	float: left;
+	margin-top: 5px;
+	text-align: center;
+	font-family: Mogen-Bold;
+	font-size: 20px;
+	color: #fff;
+	cursor: pointer;
+	margin-left: 70px;
+}
+
+#return_login:hover{
+
+	color: rgb(255, 101, 101);
+}
+
+
+@media only screen and (max-width: 575px) {
+
+	 *{
+
+		display: none;
+	 }
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 599px) {
+
+	#register_topleft_image{
+
+		background-size: 200px;
+	}
+
+	#fullname_text{
+
+		margin-top: 50px;
+		margin-left: 200px;
+	}
+
+	#campo_nome_completo{
+
+		margin-top: 10px;
+		margin-left: 145px;
+
+	}
+
+	#nickname_text{
+
+		margin-top: 20px;
+		margin-left: 150px;
+		font-size: 25px;
+
+	}
+
+	#campo_usuario{
+
+		margin-top: 10px;
+		margin-left: 145px;
+
+	}
+
+	#email_text{
+
+		margin-top: 20px;
+		margin-left: 200px;
+
+	}
+
+	#campo_email{
+
+		margin-top: 10px;
+		margin-left: 145px;
+
+	}
+
+	#password1_text{
+
+		margin-top: 20px;
+		margin-left: 200px;
+
+	}
+
+	#campo_senha{
+
+		margin-top: 10px;
+		margin-left: 145px;
+
+	}
+
+	#password2_text{
+
+		margin-top: 20px;
+		margin-left: 150px;
+		font-size: 25px;
+
+	}
+
+	#campo_senha_confirmar{
+
+		margin-top: 10px;
+		margin-left: 145px;
+
+	}
+
+	#Birthday_text{
+
+		margin-top: 20px;
+		margin-left: 205px;
+
+	}
+
+	#campo_nascimento{
+
+		margin-top: 10px;
+		margin-left: 160px;
+
+	}
+
+	#campo_botao_cadastrar{
+
+		margin-top: 30px;
+		margin-left: 185px;
+
+	}
+
+	#return_login{
+
+		margin-top: 30px;
+		margin-left: 115px;
+		width: 230px;
+
+	}
+
+	#container_01{
+
+		height: 1100PX;
+	}
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 820px){
+
+	#register_topleft_image{
+
+		background-size: 300px;
+		display: none;
+	}
+
+	#fullname_text{
+
+		margin-top: 80px;
+		margin-left: 290px;
+	}
+
+	#campo_nome_completo{
+
+		margin-top: 10px;
+		margin-left: 245px;
+
+	}
+
+	#nickname_text{
+
+		margin-top: 20px;
+		margin-left: 240px;
+		width: 200px;
+
+	}
+
+	#campo_usuario{
+
+		margin-top: 10px;
+		margin-left: 245px;
+
+	}
+
+	#email_text{
+
+		margin-top: 20px;
+		margin-left: 300px;
+
+	}
+
+	#campo_email{
+
+		margin-top: 10px;
+		margin-left: 245px;
+
+	}
+
+	#password1_text{
+
+		margin-top: 20px;
+		margin-left: 300px;
+
+	}
+
+	#campo_senha{
+
+		margin-top: 10px;
+		margin-left: 245px;
+
+	}
+
+	#password2_text{
+
+		margin-top: 20px;
+		margin-left: 235px;
+
+	}
+
+	#campo_senha_confirmar{
+
+		margin-top: 10px;
+		margin-left: 245px;
+
+	}
+
+	#Birthday_text{
+
+		margin-top: 20px;
+		margin-left: 305px;
+
+	}
+
+	#campo_nascimento{
+
+		margin-top: 10px;
+		margin-left: 260px;
+
+	}
+
+	#campo_botao_cadastrar{
+
+		margin-top: 20px;
+		margin-left: 285px;
+
+	}
+
+	#return_login{
+
+		margin-top: 10px;
+		margin-left: 215px;
+
+	}
+
+	#container_01{
+
+		height: 1100PX;
+	}
+}
+
+@media only screen and (min-width: 821px) and (max-width: 855px){
+
+	#register_topleft_image{
+
+		background-size: 250px;
+		margin-left: 130PX;
+	}
+
+	#fullname_text{
+
+		margin-top: 80px;
+		margin-left: 330px;
+	}
+
+	#campo_nome_completo{
+
+		margin-top: 10px;
+		margin-left: 280px;
+
+	}
+
+	#nickname_text{
+
+		margin-top: 20px;
+		margin-left: 275px;
+
+	}
+
+	#campo_usuario{
+
+		margin-top: 10px;
+		width: 200PX;
+		margin-left: 280px;
+
+	}
+
+	#email_text{
+
+		margin-top: 20px;
+		margin-left: 330px;
+
+	}
+
+	#campo_email{
+
+		margin-top: 0px;
+		margin-left: 280px;
+
+	}
+
+	#password1_text{
+
+		margin-top: 20px;
+		margin-left: 320px;
+
+	}
+
+	#campo_senha{
+
+		margin-top: 10px;
+		margin-left: 280px;
+
+	}
+
+	#password2_text{
+
+		margin-top: 20px;
+		margin-left: 270px;
+		width: 200PX;
+
+	}
+
+	#campo_senha_confirmar{
+
+		margin-top: 10px;
+		margin-left: 280px;
+
+	}
+
+	#Birthday_text{
+
+		margin-top: 20px;
+		margin-left: 325px;
+
+	}
+
+	#campo_nascimento{
+
+		margin-top: 10px;
+		margin-left: 285px;
+
+	}
+
+	#campo_botao_cadastrar{
+
+		margin-top: 10px;
+		margin-left: 315px;
+
+	}
+
+	#return_login{
+
+		margin-top: 10px;
+		margin-left: 235px;
+
+	}
+
+	#container_01{
+
+		height: 1100PX;
+	}
+
+}
+
+@media only screen and (min-width: 856px) and (max-width: 991px){
+
+	#register_topleft_image{
+
+		background-size: 200px;
+		margin-right: 10PX;
+	}
+
+	#fullname_text{
+
+		margin-top: 80px;
+		margin-left: 403px;
+	}
+
+	#campo_nome_completo{
+
+		margin-top: 10px;
+		margin-left: 345px;
+
+	}
+
+	#nickname_text{
+
+		margin-top: 20px;
+		margin-left: 355px;
+		font-size: 25px;
+
+	}
+
+	#campo_usuario{
+
+		margin-top: 10px;
+		margin-left: 350px;
+
+	}
+
+	#email_text{
+
+		margin-top: 20px;
+		margin-left: 410px;
+
+	}
+
+	#campo_email{
+
+		margin-top: 0px;
+		margin-left: 350px;
+
+	}
+
+	#password1_text{
+
+		margin-top: 20px;
+		margin-left: 410px;
+
+	}
+
+	#campo_senha{
+
+		margin-top: 10px;
+		margin-left: 350px;
+
+	}
+
+	#password2_text{
+
+		margin-top: 20px;
+		margin-left: 355px;
+		font-size: 25px;
+
+	}
+
+	#campo_senha_confirmar{
+
+		margin-top: 10px;
+		margin-left: 350px;
+
+	}
+
+	#Birthday_text{
+
+		margin-top: 20px;
+		margin-left: 415px;
+
+	}
+
+	#campo_nascimento{
+
+		margin-top: 10px;
+		margin-left: 365px;
+
+	}
+
+	#campo_botao_cadastrar{
+
+		margin-top: 10px;
+		margin-left: 395px;
+
+	}
+
+	#return_login{
+
+		margin-top: 30px;
+		margin-left: 355px;
+
+	}
+
+	#container_01{
+
+		height: 2100PX;
+	}
+	
+}

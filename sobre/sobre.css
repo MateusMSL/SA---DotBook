@@ -1,0 +1,882 @@
+
+
+/* CSS RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* CSS RESET */
+
+/* FONTS */
+
+@font-face {
+    font-family: People_Book;
+    src: url(Fonts/PEOPLEBOOK.otf);
+  }
+
+@font-face {
+    font-family: Mogen_Bold;
+    src: url(Fonts/Mogen-Bold.otf);
+  }
+
+  @font-face {
+    font-family: Pocket Money;
+    src: url(Fonts/Pocket\ Money.ttf);
+  }
+
+/** FONTS /
+
+/* HEADER */
+
+body {
+
+    border: 0px solid #000;
+    overflow-x:hidden;
+}
+
+::selection {
+    color: rgb(0, 0, 0);
+    background: rgb(253, 165, 148);
+}
+
+header {
+    height: 100px;
+    border: 1px solid #000000;
+    background-color: #353535;
+}
+
+#logo{
+    height: 90%;
+    margin: 0 auto;
+    background-image: url(media/GIF/Reading\ glasses.gif);
+    background-size: 105%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#pesquisa{
+    height: 50%;
+    float: left;
+    margin-top: 24px;
+    margin-left: 30px;
+}
+
+#search_text{
+
+float: left;
+width: 90%;
+height: 47px;
+border: 0px solid #000;
+border-radius: 100px 0px 0px 100px;
+
+
+}
+
+#Login_button{
+
+    float: left;    
+    width: 100%;
+    height: 40px;
+    border-radius: 0px 100px 0px 50px;
+    background-color: rgb(202, 111, 111);
+    color: rgb(0, 0, 0);
+}
+#Login_button:hover{ background-color: #f00; color: rgb(255, 255, 255); }
+
+#Cadastrar_button{
+
+    float: left;    
+    width: 100%;
+    height: 40px;
+    border-radius: 100px 0px 50px 0px;
+    background-color: rgb(202, 111, 111);
+    color: rgb(0, 0, 0);
+}
+#Cadastrar_button:hover{ background-color: #f00; color: rgb(255, 255, 255); }
+
+#buscar_button{
+
+    float: left;
+    width: 10%;
+    height: 47px;
+    border-radius: 0px 40px 40px 0px;
+    background-color: rgb(202, 111, 111);
+    color: rgb(0, 0, 0);
+}
+
+#buscar_button:hover{ background-color: #f00; color: rgb(255, 255, 255); }
+
+
+#cadastro{
+    height: 70%;
+    float: left;
+    margin-top: 15px;
+    margin-left: 150px;
+}
+#login{
+    height: 70%;
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+main{
+    height: 1100px;
+    border: 1px solid #000000;
+}
+
+#article1{
+    height: 380px;
+}
+#article2{
+    height: 400px;
+}
+#frontend1{
+    height: 130px;
+    border: 1px solid #f88603;
+    float: left;
+    margin-top: 120px;
+    margin-left: 370px;
+    border-radius: 150px;
+    cursor:pointer;
+    background-image: url(img/aquele.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#frontend2{
+    border: 1px solid #f88603;
+    float: left;
+    margin-top: 120px;
+    margin-left: 100px;
+    height: 130px;
+    border-radius: 150px;
+    cursor:pointer;
+    background-image: url(img/elbigodon.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#backend1{
+    border: 1px solid #ec0349;
+    float: left;
+    margin-top: 120px;
+    margin-left: 100px;
+    height: 130px;
+    border-radius: 150px;
+    cursor:pointer;
+    background-image: url(img/decria.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#backend2{
+    height: 130px;
+    border-radius: 150px;
+    border: 1px solid #ec0349;
+    float: left;
+    margin-top: 120px;
+    margin-left: 85px;
+    cursor:pointer;
+    background-image: url(img/vendedor.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#gif1{
+    float: left;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+#gif2{
+    float: left;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+#giffe1{
+    height: 300px;
+    margin-top: -20px;
+    float: left;
+    margin-left: 90px;
+    display: none;
+    background-image: url(gif/Website\ Creator.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#giffe2{
+    height: 300px;
+    float: left;
+    display: none;
+    margin-left: 1120px;
+    margin-top: -320px;
+    background-image: url(gif/Programming1.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+/* Muda texto diacordo com o click */
+
+#nome{
+    font-size: large;
+}
+#idade{
+    font-size: large;
+}
+#GitHub{
+    font-size: large;
+}
+#Linkedin{
+    font-size: large;
+}
+#funcao{
+    font-size: large;
+}
+
+/* ---- Fim ---- */
+
+#gifbe1{
+    height: 300px;
+    float: left;
+    margin-left: 10px;
+    display: none;
+    background-image: url(gif/Code\ typing.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#gifbe2{
+    height: 300px;
+    float: left;
+    margin-left: -410px;
+    display: none;
+    background-image: url(gif/Programming.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#dados{
+    height: 300px;
+    float: left;
+    margin-top: 20px;
+    margin-left: -240px;
+    font-size: large;
+    text-align: center;
+}
+#gif3{
+    float: left;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+#gif4{
+    float: left;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+#fe1{
+    height: 300px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 75px;
+    font-size: large;
+}
+#fe2{
+    height: 300px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 75px;
+    font-size: large;
+}
+#be1{
+    height: 300px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 75px;
+    font-size: large;
+}
+#be2{
+    height: 300px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 75px;
+    font-size: large;
+}
+
+@media only screen and (max-width: 575px){
+
+
+    *{
+
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 599px) {
+
+    #frontend1{
+
+        float: left;
+        height: 140px;
+        margin-left: 1px;
+
+    }
+    
+    #frontend2{
+
+        height: 140px;
+        float: left;
+        margin-left: 10px;
+        margin-top: -140px;
+    }
+    
+    #backend1{
+
+        height: 140px;
+        float: left;
+        margin-left: 10px;
+    }
+    
+    #backend2{
+
+        height: 140px;
+        float: left;
+        margin-left: 260px;
+    }
+
+    #article2{
+
+        margin-top: 180px;
+    }
+
+    #gif1{ 
+        width: 150px;
+        height: 150px;
+        
+    }
+    
+    #gifbe1{
+
+        margin-left: 0px;
+        height: 150px;
+    }
+    
+    
+    #gif3{ 
+        width: 150px;
+        height: 150px;
+        margin-right: 10px;
+        float: right;
+        
+    }
+
+    #giffe1{
+
+        margin-left: 0px;
+        margin: 0px;
+        height: 150px;
+    }
+
+    #gif2{ 
+        width: 150px;
+        height: 150px;
+        margin-left: -150px;
+        
+    }
+
+    #gifbe2{
+
+        margin-left: 0px;
+        height: 150px;
+    }
+    
+    #gif4{ 
+        width: 150px;
+        height: 150px;
+        margin-left: 1px;
+        margin-top: -150px;
+        
+    }
+
+    #giffe2{
+
+        margin-left: 0px;
+        margin: 0px;
+        height: 150px;
+    }
+
+    #dados{
+
+        float: left;
+        margin-left: 2px;
+        text-align: center;
+        height: auto;
+    }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 820px){
+
+    #frontend1{
+
+        float: left;
+        height: 140px;
+        margin-left: 10px;
+
+    }
+    
+    #frontend2{
+
+        height: 140px;
+        float: left;
+        margin-left: 10px;
+        margin-top: -140px;
+    }
+    
+    #backend1{
+
+        height: 140px;
+        float: left;
+        margin-left: 10px;
+    }
+    
+    #backend2{
+
+        height: 140px;
+        float: left;
+        margin-left: 260px;
+    }
+
+    #article2{
+
+        margin-top: 180px;
+    }
+
+    #gif1{ 
+        width: 150px;
+        height: 150px;
+        
+    }
+    
+    #gifbe1{
+
+        margin-left: 0px;
+        height: 150px;
+    }
+    
+    
+    #gif3{ 
+        width: 150px;
+        height: 150px;
+        margin-right: 10px;
+        float: right;
+        
+    }
+
+    #giffe1{
+
+        margin-left: 0px;
+        margin: 0px;
+        height: 150px;
+    }
+
+    #gif2{ 
+        width: 150px;
+        height: 150px;
+        margin-left: -150px;
+        
+    }
+
+    #gifbe2{
+
+        margin-left: 0px;
+        height: 150px;
+    }
+    
+    #gif4{ 
+        width: 150px;
+        height: 150px;
+        margin-left: 1px;
+        margin-top: -150px;
+        
+    }
+
+    #giffe2{
+
+        margin-left: 0px;
+        margin: 0px;
+        height: 150px;
+    }
+
+    #dados{
+
+        float: left;
+        margin-left: 2px;
+        text-align: center;
+        height: auto;
+    }
+
+}
+
+@media only screen and (min-width: 821px) and (max-width: 855px){
+
+    #frontend1{
+
+        float: left;
+        width: 150px;
+        height: 140px;
+        margin-left: -470px;
+
+    }
+    
+    #frontend2{
+
+        width: 150px;
+        height: 140px;
+        float: left;
+        margin-left: -290px;
+    }
+    
+    #backend1{
+
+        width: 150px;
+        height: 140px;
+        float: left;
+        margin-left: -110px;
+    }
+    
+    #backend2{
+
+        width: 150px;
+        height: 140px;
+        float: left;
+        margin-left: 30px;
+    }
+
+    #article2{
+
+        margin-top: 180px;
+    }
+
+    #gif1{ 
+        width: 150px;
+        height: 150px;
+        
+    }
+    
+    #gifbe1{
+
+        margin-left: 0px;
+        height: 150px;
+    }
+    
+    
+    #gif3{ 
+        width: 150px;
+        height: 150px;
+        margin-right: 10px;
+        float: right;
+        
+    }
+
+    #giffe1{
+
+        margin-left: 0px;
+        margin: 0px;
+        height: 150px;
+    }
+
+    #gif2{ 
+        width: 150px;
+        height: 150px;
+        margin-left: -150px;
+        
+    }
+
+    #gifbe2{
+
+        margin-left: 0px;
+        height: 150px;
+    }
+    
+    #gif4{ 
+        width: 150px;
+        height: 150px;
+        margin-left: 70px;
+        margin-top: -150px;
+        
+    }
+
+    #giffe2{
+
+        margin-left: 0px;
+        margin: 0px;
+        height: 150px;
+    }
+
+    #dados{
+
+        float: left;
+        margin-left: 80px;
+        text-align: center;
+        height: auto;
+    }
+
+}
+
+@media only screen and (min-width: 856px) and (max-width: 991px){
+
+    #frontend1{
+
+        float: left;
+        width: 150px;
+        height: 140px;
+        margin-left: -480px;
+
+    }
+    
+    #frontend2{
+
+        width: 150px;
+        height: 140px;
+        float: left;
+        margin-left: -280px;
+    }
+    
+    #backend1{
+
+        width: 150px;
+        height: 140px;
+        float: left;
+        margin-left: -80px;
+    }
+    
+    #backend2{
+
+        width: 150px;
+        height: 140px;
+        float: left;
+        margin-left: 50px;
+    }
+
+    #article2{
+
+        margin-top: 180px;
+    }
+
+    #gif1{ 
+        width: 150px;
+        height: 150px;
+        
+    }
+    
+    #gifbe1{
+
+        margin-left: 0px;
+        height: 150px;
+    }
+    
+    
+    #gif3{ 
+        width: 150px;
+        height: 150px;
+        margin-right: 10px;
+        float: right;
+        
+    }
+
+    #giffe1{
+
+        margin-left: 0px;
+        margin: 0px;
+        height: 150px;
+    }
+
+    #gif2{ 
+        width: 150px;
+        height: 150px;
+        margin-left: -150px;
+        
+    }
+
+    #gifbe2{
+
+        margin-left: 0px;
+        height: 150px;
+    }
+    
+    #gif4{ 
+        width: 150px;
+        height: 150px;
+        margin-left: 70px;
+        margin-top: -150px;
+        
+    }
+
+    #giffe2{
+
+        margin-left: 0px;
+        margin: 0px;
+        height: 150px;
+    }
+
+    #dados{
+
+        float: left;
+        margin-left: 80px;
+        text-align: center;
+        height: auto;
+    }
+
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1261px){
+
+    #frontend1{
+        height: 130px;
+        width: 130px;
+        border: 1px solid #f88603;
+        float: left;
+        margin-top: 120px;
+        margin-left: -100px;
+        border-radius: 150px;
+        cursor:pointer;
+    }
+    #frontend2{
+        border: 1px solid #a826ff;
+        float: left;
+        margin-top: 120px;
+        margin-left: 100px;
+        height: 130px;
+        width: 130px;
+        border-radius: 150px;
+        cursor:pointer;
+    }
+    #backend1{
+        border: 1px solid #034dec;
+        float: left;
+        margin-top: 120px;
+        margin-left: 100px;
+        height: 130px;
+        width: 130px;
+        border-radius: 150px;
+        cursor:pointer;
+    }
+    #backend2{
+        height: 130px;
+        width: 130px;
+        border-radius: 150px;
+        border: 1px solid #18d607;
+        float: left;
+        margin-top: 120px;
+        margin-left: 85px;
+        cursor:pointer;
+    }
+    #gif1{
+        float: left;
+        height: 200px;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    #gif2{
+        float: left;
+        height: 200px;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    #giffe1{
+        height: 300px;
+        margin-top: 0px;
+        float: left;
+        margin-left: 50px;
+        display: none;
+    }
+    #giffe2{
+        height: 300px;
+        float: left;
+        display: none;
+        margin-left: 660px;
+        margin-top: -320px;
+        
+    }
+    #gifbe1{
+        height: 300px;
+        float: left;
+        margin-left: 60px;
+        display: none;
+
+    }
+    #gifbe2{
+        height: 300px;
+        float: left;
+        margin-left: -190px;
+        display: none;
+    }
+    #dados{
+        height: 300px;
+        float: left;
+        margin-top: 20px;
+        margin-left: -150px;
+        font-size: large;
+        text-align: center;
+    }
+    #gif3{
+        float: left;
+        height: 300px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    #gif4{
+        float: left;
+        height: 300px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+}
