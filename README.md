@@ -12,6 +12,7 @@ Link de Acesso para o site: *indisponivel por limitações do github*
 
 •• ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ••●•• ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ••
 
+
 **Página Inicial:**
 
 *Aqui é a pagina inicial, nela você pode visualizar o catálogo disponivel, realizar login ou cadastro além de tambem clickar para acessar os feedbacks já escritos pelos usuários cadastrados*
@@ -19,6 +20,7 @@ Link de Acesso para o site: *indisponivel por limitações do github*
 
 
 ![Tela inicial - Deslogado](https://user-images.githubusercontent.com/109548196/193477836-9af2c762-0909-456d-acf4-b2b066eb5bc9.png)
+
 
 •• ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ••●•• ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ••
 
@@ -32,13 +34,17 @@ Link de Acesso para o site: *indisponivel por limitações do github*
 
 ![Tela inicial - fim](https://user-images.githubusercontent.com/109548196/193478322-10cebf97-fd21-42b3-9c65-31d91ce08031.png)
 
+
 •• ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ••●•• ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ••
+
 
 **Voltando ao topo da página inicial**
 
 *Podemos clickar no botão de **Cadastro** ou **Login**, primeiro vamos para login.*
 
+
 •• ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ••●•• ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ••
+
 
 **Tela de LOGIN**
 
