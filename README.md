@@ -8,6 +8,8 @@ Link de Acesso para o site: *indisponivel por limitações do github*
 
 *Este trabalho foi desenvolvido por mim e meu grupo de estudos e seu intuito na atividade era um site para feedbacks com nome e tema de livre escolha, a tematização que nós da equipe desenvolvedora da **DOTBOOK** escolhemos foi a de um site de livros, nosso site conta com um catálogo, login, cadastro e obviamente os feedbacks dos livros!*
 
+*Eu, **Mateus**, Trabalhei como lider da equipe e prioritáriamente na parte do FrontEnd, corrigindo bugs para facilitar a visualização dos integrantes na criação do BackEnd e criando a visualização final que o usuário tem ao acessar o site!*
+
 •• ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ••●•• ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ••
 
 **Página Inicial:**
